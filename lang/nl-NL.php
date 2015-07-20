@@ -1,0 +1,107 @@
+<?php
+define("WORDING_VIEWINVENTORY", "Bekijk Inventaris");
+define("WORDING_ADDITEM", "Onderdelen Toevoegen");
+
+define("WORDING_ITEMNAME", "Onderdeel Naam");
+define("WORDING_ITEMCATEGORY", "Onderdeel categorie");
+define("WORDING_SUBMISSIONDATE", "Datum Toegevoegt");
+define("WORDING_ITEMSINSTOCK", "Onderdelen in Inventaris");
+define("WORDING_ITEMBRAND", "Merk");
+
+
+define("WORDING_ITEMCATEGORY_CPU", "CPU");
+define("WORDING_ITEMCATEGORY_RAM", "RAM");
+define("WORDING_ITEMCATEGORY_MOTHERBOARD", "Moederbord");
+define("WORDING_ITEMCATEGORY_HDD", "Hardeschijf");
+define("WORDING_ITEMCATEGORY_SSD", "Solid State Drive");
+define("WORDING_ITEMCATEGORY_CASE", "Behuizing");
+define("WORDING_ITEMCATEGORY_MOUSE", "Muis");
+define("WORDING_ITEMCATEGORY_KEYBOARD", "Toetsenbord");
+define("WORDING_ITEMCATEGORY_SCREEN", "Scherm");
+define("WORDING_ITEMCATEGORY_GRAPHICSCARD", "Grafishekaart");
+define("WORDING_ITEMCATEGORY_CPUCOOLER", "CPU Koeling");
+
+define("WORDING_MODEL", "Model");
+
+
+/* CPU */
+define("WORDING_ITEMCATEGORY_ITEM_CPU_MODEL", "CPU Model");
+define("WORDING_ITEMCATEGORY_ITEM_CPU_CORES", "CPU Kernen");
+define("WORDING_ITEMCATEGORY_ITEM_CPU_SOCKET", "CPU Socket");
+define("WORDING_ITEMCATEGORY_ITEM_CPU_CLOCKSPEED", "CPU kloksnelheid");
+
+
+/* RAM */
+define("WORDING_ITEMCATEGORY_ITEM_RAM_TYPE", "RAM Type");
+define("WORDING_ITEMCATEGORY_ITEM_RAM_MODEL", "RAM Model");
+define("WORDING_ITEMCATEGORY_ITEM_RAM_SIZE", "RAM grootte");
+define("WORDING_ITEMCATEGORY_ITEM_RAM_SPEED", "RAM Snelheid");
+define("WORDING_ITEMCATEGORY_ITEM_RAM_TIMINGS", "RAM Tijden");
+
+
+/* Motherboard */
+define("WORDING_ITEMCATEGORY_ITEM_MOTHERBOARD_MODEL", "Moederboard Model");
+define("WORDING_ITEMCATEGORY_ITEM_MOTHERBOARD_FORMFACTOR", "Form Factor");
+define("WORDING_ITEMCATEGORY_ITEM_MOTHERBOARD_PCIeSLOTS16X", "PCIe 16x Sleuven");
+define("WORDING_ITEMCATEGORY_ITEM_MOTHERBOARD_PCIeSLOTS8X", "PCIe 8x Sleuven");
+define("WORDING_ITEMCATEGORY_ITEM_MOTHERBOARD_PCIeSLOTS4X", "PCIe 4x Sleuven");
+define("WORDING_ITEMCATEGORY_ITEM_MOTHERBOARD_PCISLOTS", "PCI Sleuven");
+
+
+/* HDD */
+define("WORDING_ITEMCATEGORY_ITEM_HDD_MODEL", "HDD Model");
+define("WORDING_ITEMCATEGORY_ITEM_HDD_CAPACITY", "HDD Capaciteit");
+define("WORDING_ITEMCATEGORY_ITEM_HDD_RPM", "HDD RPM");
+define("WORDING_ITEMCATEGORY_ITEM_HDD_INTERFACE", "HDD Interface");
+define("WORDING_ITEMCATEGORY_ITEM_HDD_FORMAT", "HDD Afmeting");
+
+
+/* SSD */
+define("WORDING_ITEMCATEGORY_ITEM_SSD_MODEL", "SSD Model");
+define("WORDING_ITEMCATEGORY_ITEM_SSD_CAPACITY", "Capaciteit");
+define("WORDING_ITEMCATEGORY_ITEM_SSD_INTERFACE", "SSD Interface");
+define("WORDING_ITEMCATEGORY_ITEM_SSD_FORMAT", "SSD Afmeting");
+
+
+/* Case */
+define("WORDING_ITEMCATEGORY_ITEM_CASE_MODEL", "kast Model");
+define("WORDING_ITEMCATEGORY_ITEM_CASE_FORMFACTOR", "Kast Afmetingen");
+define("WORDING_ITEMCATEGORY_ITEM_CASE_EXPANSIONSLOTS", "Uitbreidings Sleuven");
+define("WORDING_ITEMCATEGORY_ITEM_CASE_25INCHDRIVEBAY", "2.5 Inch schijf kooien");
+define("WORDING_ITEMCATEGORY_ITEM_CASE_35INCHDRIVEBAY", "3.5 Inch schijf kooien");
+define("WORDING_ITEMCATEGORY_ITEM_CASE_5INCHDRIVEBAY", "5 Inch schijf kooien");
+
+
+/* CPU Cooler */
+define("WORDING_ITEMCATEGORY_ITEM_CPUCOOLER_MODEL", "CPU Koelings Model");
+
+/* MAUWZZZZZ */
+define("WORDING_ITEMCATEGORY_ITEM_MOUSE_MODEL", "Muis Model");
+
+/* Keyboard */
+define("WORDING_ITEMCATEGORY_ITEM_KEYBOARD_MODEL", "Toetsenbord Model");
+define("WORDING_ITEMCATEGORY_ITEM_KEYBOARD_SWITCHES", "Schakelaar Type");
+
+/* Screen*/
+define("WORDING_ITEMCATEGORY_ITEM_SCREEN_MODEL", "Scherm Model");
+define("WORDING_ITEMCATEGORY_ITEM_SCREEN_RESOLUTION", "Scherm Resolutie");
+define("WORDING_ITEMCATEGORY_ITEM_SCREEN_SIZE", "Scherm Afmeting");
+define("WORDING_ITEMCATEGORY_ITEM_SCREEN_CONNECTORS", "Scherm Aansluitingen");
+
+/* Graphicscard */
+define("WORDING_ITEMCATEGORY_ITEM_GPU_MODEL", "Videokaart Model");
+define("WORDING_ITEMCATEGORY_ITEM_GPU_CHIP", "GPU Chip");
+define("WORDING_ITEMCATEGORY_ITEM_GPU_VRAM", "GPU VRAM");
+define("WORDING_ITEMCATEGORY_ITEM_GPU_CONNECTORS", "Aansluitingen");
+define("WORDING_ITEMCATEGORY_ITEM_GPU_INTERFACE", "Interface");
+
+/* Adding Items */
+define("WORDING_ITEMADDED", "Onderdeel toegevoegt!");
+define("WORDING_ITEMEXISTS", "Onderdeel bestaat al!");
+define("WORDING_CANTADDITEM", "Onderdeel kan niet toegevoegt worden");
+
+
+/* Errors */
+define("WORDING_NOITEMS", "Geen Onderdelen in database");
+
+?>
