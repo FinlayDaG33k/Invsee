@@ -6,10 +6,11 @@ Inventory stock ledger, specifically aimed towards computer related people (smal
 - Dutch   - FinlayDaG33k (Discontinued)
 
 # Todo
-~~- Add per part specifications~~
-- Make people be able to 'take' items out of the inventory (if he/she borrows a part)
-- Add a Look
-- Add Admin Panel
-- Add User specific Permissions
+~~- Add per part specifications~~  
+- Make people be able to 'take' items out of the inventory (if he/she borrows a part)  
+- Add a Look  
+- Add Admin Panel  
+- Add User specific Permissions  
+- Add security
 
 
