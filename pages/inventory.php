@@ -409,34 +409,38 @@ if ($SCREEN_result = $mysqli->query($SCREEN_query)) {
 <?php
 /* GRAPHICSCARD list */
 $GRAPHICSCARD_query = "SELECT * FROM graphicscard";
+?>
 
-echo '<h1>' . WORDING_ITEMCATEGORY_GRAPHICSCARD . '</h1>';
-
-if ($GRAPHICSCARD_result = $mysqli->query($GRAPHICSCARD_query)) {
-    
-     echo '<table border="1">';
-     echo '<tr>';
-      echo '<td>' . WORDING_ITEMBRAND . '</td>';
-      echo '<td>' . WORDING_ITEMCATEGORY_ITEM_GPU_MODEL . '</td>';
-      echo '<td>' . WORDING_ITEMCATEGORY_ITEM_GPU_CHIP . '</td>';
-      echo '<td>' . WORDING_ITEMCATEGORY_ITEM_GPU_VRAM . '</td>';
-      echo '<td>' . WORDING_ITEMCATEGORY_ITEM_GPU_CONNECTORS . '</td>';
-      echo '<td>' . WORDING_ITEMCATEGORY_ITEM_GPU_INTERFACE . '</td>';
-      echo '<td>' . WORDING_ITEMSINSTOCK . '</td>';
-      echo '</tr>';
+<h1><?php echo WORDING_ITEMCATEGORY_GRAPHICSCARD ?></h1>
+<?php if ($GRAPHICSCARD_result = $mysqli->query($GRAPHICSCARD_query)) { ?>
+     <table border="1">
+     <tr>
+      <td><?php echo WORDING_ITEMBRAND ?></td>
+      <td><?php echo WORDING_ITEMCATEGORY_ITEM_GPU_MODEL ?></td>
+      <td><?php echo WORDING_ITEMCATEGORY_ITEM_GPU_CHIP ?></td>
+      <td><?php echo WORDING_ITEMCATEGORY_ITEM_GPU_VRAM ?></td>
+      <td><?php echo WORDING_ITEMCATEGORY_ITEM_GPU_CONNECTORS ?></td>
+      <td><?php echo WORDING_ITEMCATEGORY_ITEM_GPU_INTERFACE ?></td>
+      <td><?php echo WORDING_ITEMSINSTOCK ?></td>
+      </tr>
+      <?php
     /* fetch object array */
     while ($GRAPHICSCARD_row = $GRAPHICSCARD_result->fetch_row()) {
-      echo '<tr>';
-      echo '<td>' . $GRAPHICSCARD_row[1] . '</td>';
-      echo '<td>' . $GRAPHICSCARD_row[2] . '</td>';
-      echo '<td>' . $GRAPHICSCARD_row[3] . '</td>';
-      echo '<td>' . $GRAPHICSCARD_row[4] . '</td>';
-      echo '<td>' . $GRAPHICSCARD_row[5] . '</td>';
-      echo '<td>' . $GRAPHICSCARD_row[6] . '</td>';
-      echo '<td>' . $GRAPHICSCARD_row[8] . '</td>';
-      echo '</tr>';
+        ?>
+      <tr>
+      <td><?php echo $GRAPHICSCARD_row[1] ?></td>
+      <td><?php echo $GRAPHICSCARD_row[2] ?></td>
+      <td><?php echo $GRAPHICSCARD_row[3] ?></td>
+      <td><?php echo $GRAPHICSCARD_row[4] ?></td>
+      <td><?php echo $GRAPHICSCARD_row[5] ?></td>
+      <td><?php echo $GRAPHICSCARD_row[6] ?></td>
+      <td><?php echo $GRAPHICSCARD_row[8] ?></td>
+      </tr>
+      <?php
     }
-echo '</table>';
+    ?>
+</table>
+<?php
     /* free result set */
     $GRAPHICSCARD_result->close();
 } else {
